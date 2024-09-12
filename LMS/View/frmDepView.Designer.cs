@@ -59,9 +59,9 @@
             this.lblHeader.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeader.Location = new System.Drawing.Point(19, 25);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(93, 25);
+            this.lblHeader.Size = new System.Drawing.Size(55, 25);
             this.lblHeader.TabIndex = 4;
-            this.lblHeader.Text = "휴가 유형";
+            this.lblHeader.Text = "부 서";
             // 
             // btnAdd
             // 
@@ -172,7 +172,7 @@
             // dgvDep
             // 
             this.dgvDep.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dgvDep.HeaderText = "휴가 유형";
+            this.dgvDep.HeaderText = "부 서";
             this.dgvDep.Name = "dgvDep";
             // 
             // frmDepView
@@ -198,8 +198,8 @@
         public System.Windows.Forms.Label lblHeader;
         public Guna.UI2.WinForms.Guna2Button btnAdd;
         public Guna.UI2.WinForms.Guna2TextBox txtSearch;
+        public Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvid;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvDep;
-        public Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
     }
 }
